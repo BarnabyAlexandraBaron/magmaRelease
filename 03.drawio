@@ -1,1 +1,198 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T10:09:27.882Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" version="21.0.6" etag="J_KYB9UVX_bwTGwlAjrU" type="github"><diagram name="第 1 页" id="BUCQjS21zMM-Vwi8PIMd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-18T11:17:07.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="L699Xlmqo3_0Bny-6aiW" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="BUCQjS21zMM-Vwi8PIMd">
+    <mxGraphModel dx="1342" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vPRoChhWctGx48kzzdbH-1" value="初始化&lt;br&gt;prime赋值为true;&lt;br&gt;输入N；&lt;br&gt;I=2;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-2" value="I&amp;lt;sqrt(N) 且 &lt;br&gt;prime等于true？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-2" target="vPRoChhWctGx48kzzdbH-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint" />
+            <mxPoint x="460" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-2" target="vPRoChhWctGx48kzzdbH-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint" />
+            <mxPoint x="320" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-5" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-6" value="F" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-1" target="vPRoChhWctGx48kzzdbH-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint" />
+            <mxPoint x="470" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-8" value="R更新为R模除I" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-10" value="R等于0？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="460" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-8" target="vPRoChhWctGx48kzzdbH-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="440" as="sourcePoint" />
+            <mxPoint x="320" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-12" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-10" target="vPRoChhWctGx48kzzdbH-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="500" as="sourcePoint" />
+            <mxPoint x="510" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-14" value="F" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-10" target="vPRoChhWctGx48kzzdbH-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="630" as="sourcePoint" />
+            <mxPoint x="320" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-16" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-17" value="prime赋值为false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-18" value="I的值加1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-18" target="vPRoChhWctGx48kzzdbH-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="430" as="sourcePoint" />
+            <mxPoint x="160" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="680" />
+              <mxPoint x="160" y="680" />
+              <mxPoint x="160" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="570" as="sourcePoint" />
+            <mxPoint x="320" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-21" value="打印 N is a prime&lt;br&gt;即N是素数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-22" value="prime的值为true？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-22" target="vPRoChhWctGx48kzzdbH-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="380" as="sourcePoint" />
+            <mxPoint x="680" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-24" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-25" value="打印 N is not a prime&lt;br&gt;即N不是素数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-22" target="vPRoChhWctGx48kzzdbH-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="460" as="sourcePoint" />
+            <mxPoint x="680" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-27" value="F" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-28" value="primre=true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1190" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-29" value="输入N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1230" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-30" value="I=2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1270" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1310" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-33" value="R=R%I" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1350" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-35" value="I&amp;lt;sqrt(N)且prime等于true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1320" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-40" value="R=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1400" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-41" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-40" target="vPRoChhWctGx48kzzdbH-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="1080" as="sourcePoint" />
+            <mxPoint x="455" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-42" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vPRoChhWctGx48kzzdbH-40" target="vPRoChhWctGx48kzzdbH-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="1080" as="sourcePoint" />
+            <mxPoint x="455" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-43" value="F" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-48" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-49" value="I=I+1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1440" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-50" value="prime=false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1440" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-51" value="prime=true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1490" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-52" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" source="vPRoChhWctGx48kzzdbH-51" target="vPRoChhWctGx48kzzdbH-51" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="1170" as="sourcePoint" />
+            <mxPoint x="425" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-53" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" source="vPRoChhWctGx48kzzdbH-51" target="vPRoChhWctGx48kzzdbH-51" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="1170" as="sourcePoint" />
+            <mxPoint x="425" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-54" value="F" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-55" value="T" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-56" value="打印 N is not a prime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1530" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vPRoChhWctGx48kzzdbH-57" value="打印 N is a prime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1530" width="190" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
